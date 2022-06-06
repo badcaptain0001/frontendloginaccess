@@ -1,0 +1,45 @@
+.optionsCrm{
+  padding: 10px 30px;
+  display: flex;
+  gap: 10px;
+}
+.optionCards{
+  height: 100px;
+  background-color: rgb(87, 134, 206);
+  border-radius: 10px;
+  box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+.optionLeft{
+  width: 20%;
+}
+.optionCards:hover{
+  background-color: rgb(164, 201, 255);
+}
+.optionHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.WorkStation{
+  width: 80%;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.sliderContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.deleteImg{
+  border-left: 1px solid black;
+  width: 70%;
+  padding: 10px;
+}
+.imageShowCase {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
