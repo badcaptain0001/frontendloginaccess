@@ -8,7 +8,7 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post('https://impossible-knowledgeable-asparagus.glitch.me/register',{
+    axios.post('http://ecomsamp.herokuapp.com/register',{
       username: username,
       password: password
     })
